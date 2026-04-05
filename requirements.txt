@@ -1,0 +1,7 @@
+# Notebook dependencies for qornballspc.ipynb
+bluequbit
+jupyterlab
+numpy
+pyzx
+qiskit
+qiskit-aer

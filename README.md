@@ -72,14 +72,20 @@ Those files are not included in this repo, so you need them in the working direc
 
 ## Requirements
 
-The notebook imports or uses:
+Install the notebook dependencies with:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+The [`requirements.txt`](requirements.txt) file includes the third-party packages used by the notebook:
 
 - `bluequbit`
 - `qiskit`
+- `qiskit-aer`
 - `numpy`
 - `pyzx`
-- `qiskit-aer`
-- `jupyter`
+- `jupyterlab`
 
 Some cells also require a working BlueQubit login via:
 
@@ -93,6 +99,7 @@ bq = bluequbit.init()
 From the repository root:
 
 ```bash
+python -m pip install -r requirements.txt
 jupyter lab
 ```
 
